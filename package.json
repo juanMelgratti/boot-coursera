@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap-coursera",
+  "version": "1.0.0",
+  "description": "Primer proyecto en bootstrap",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanMelgratti/Bootstrap-Coursera.git"
+  },
+  "author": "Juan Pablo Melgratti Morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanMelgratti/Bootstrap-Coursera/issues"
+  },
+  "homepage": "https://github.com/juanMelgratti/Bootstrap-Coursera#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
