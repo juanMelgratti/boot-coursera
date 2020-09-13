@@ -1,5 +1,1 @@
-# boot-coursera
-
-Hello
-
-"some code"
+# Bootstrap-Coursera
