@@ -1,0 +1,25 @@
+.jumbotron{
+    background-color: brown;
+    color: white;
+}
+
+footer{
+    margin-top: 5px;
+    background-color: rgb(85, 67, 247);
+    color: white;
+}
+
+footer a{
+    color:black;
+}
+
+footer a:hover{
+    color: rgb(32, 216, 124);
+    text-decoration: none;
+}
+
+.card-hotel{
+    display:flex;
+    width:  250px;
+    margin: 5px;
+}
