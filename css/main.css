@@ -1,6 +1,7 @@
 .jumbotron{
     background-color: brown;
     color: white;
+    margin-top: 50px;
 }
 
 footer{
@@ -20,6 +21,6 @@ footer a:hover{
 
 .card-hotel{
     display:flex;
-    width:  250px;
+    width:  200px;
     margin: 5px;
 }
