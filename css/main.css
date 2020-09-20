@@ -1,7 +1,10 @@
 .jumbotron{
-    background-color: brown;
+    background-image: url(../img/background.jpg);
     color: white;
     margin-top: 50px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+
 }
 
 footer{
