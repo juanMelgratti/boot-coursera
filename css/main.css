@@ -38,3 +38,9 @@ footer a:hover{
     text-decoration: none;
     color: green;
 }
+
+.largo{
+    display:block;
+    max-height: 400px;
+    object-fit: contain;
+}
