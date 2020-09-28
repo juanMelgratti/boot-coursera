@@ -45,28 +45,39 @@
         <div class="d-flex flex-wrap flex-row">
             <div class="col-sm-4">
               <p>
-                <h3>¿Cómo funciona?</h3>
+                <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapse1" role="button" aria-expanded="true" aria-controls="multiCollapse1">¿Cómo Funciona?</a>
+                <div class="collapse multi-collapse" id="multiCollapse1">
+
                 <p>Busca los hoteles de acuerdo a tu preferncia.</p>
+                </div>
               </p>
             </div>
             <div class="col-sm-4">
               <p>
-                <h3>¿Dónde puedo reservar?</h3>
-                <p>Eliges la ciudad que te interese y luego realizá la reserva con tus datos.</p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapse2" role="button" aria-expanded="true" aria-controls="multiCollapse2">¿Dónde puedo reservar?</a>
+                <div class="collapse multi-collapse" id="multiCollapse2">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem labore molestias magnam consequatur ab tempora omnis maiores nam praesentium doloremque cum cumque dolores accusamus placeat, eos magni quasi iusto voluptate.</p>
+                </div>
               </p>
             </div>
             <div class="col-sm-4">
               <p>
-                <h3>¿Cómo pago?</h3>
-                <p>Utilizá tu tarjeta favorita</p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapse3" role="button" aria-expanded="true" aria-controls="multiCollapse3">¿Cómo pago?</a>
+                <div class="collapse multi-collapse" id="multiCollapse3">
+
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, optio qui placeat error ullam vitae voluptatum harum. Possimus minus, optio alias sapiente nemo assumenda reiciendis. Magni autem dolorum aut iure.</p>
+                  </div>
               </p>
             </div>
         </div>
         <div class="row">
+          
           <div class="card-hotel d-flex flex-column justify-content-between" style="width: 18rem;">
             <img class="card-img-top" src="img/clima_costa_01.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Título</h5>
+              <h5 rel="tooltip" title="Tooltip">Título</h5>
+
               <h6 class="card-subtitle mb-2 text-muted">Subtitulo</h6>
               <p class="card-text">Descripción sobre el lugar/hotel.</p>
               <a href="#" class="btn btn-success">Reservar</a>
@@ -75,7 +86,7 @@
          <div class="card-hotel d-flex flex-column justify-content-between" style="width: 18rem;">
           <img class="card-img-top" src="img/clima_costa_01.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Título</h5>
+            <h5 rel="tooltip" title="Tooltip">Título</h5>
             <h6 class="card-subtitle mb-2 text-muted">Subtitulo</h6>
             <p class="card-text">Descripción sobre el lugar/hotel.</p>
             <a href="#" class="btn btn-success">Reservar</a>
@@ -84,7 +95,7 @@
        <div class="card-hotel d-flex flex-column justify-content-between" style="width: 18rem;">
         <img class="card-img-top" src="img/clima_costa_01.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Título</h5>
+          <h5 rel="tooltip" title="Tooltip">Título</h5>
           <h6 class="card-subtitle mb-2 text-muted">Subtitulo</h6>
           <p class="card-text">Descripción sobre el lugar/hotel.</p>
           <a href="#" class="btn btn-success">Reservar</a>
@@ -93,7 +104,7 @@
      <div class="card-hotel d-flex flex-column justify-content-between" style="width: 18rem;">
       <img class="card-img-top" src="img/clima_costa_01.jpg" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">Título</h5>
+        <h5 rel="tooltip" title="Tooltip">Título</h5>
         <h6 class="card-subtitle mb-2 text-muted">Subtitulo</h6>
         <p class="card-text">Descripción sobre el lugar/hotel.</p>
         <a href="#" class="btn btn-success">Reservar</a>
@@ -102,7 +113,7 @@
    <div class="card-hotel d-flex flex-column justify-content-between" style="width: 18rem;">
     <img class="card-img-top" src="img/clima_costa_01.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Título</h5>
+      <h5 rel="tooltip" title="Tooltip">Título</h5>
       <h6 class="card-subtitle mb-2 text-muted">Subtitulo</h6>
       <p class="card-text">Descripción sobre el lugar/hotel.</p>
       <a href="#" class="btn btn-success">Reservar</a>
@@ -111,17 +122,46 @@
  <div class="card-hotel d-flex flex-column justify-content-between" style="width: 18rem;">
   <img class="card-img-top" src="img/clima_costa_01.jpg" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Título</h5>
+    <h5 rel="tooltip" title="Tooltip">Título</h5>
     <h6 class="card-subtitle mb-2 text-muted">Subtitulo</h6>
     <p class="card-text">Descripción sobre el lugar/hotel.</p>
     <a href="#" class="btn btn-success">Reservar</a>
   </div>
-</div>
-         
-        
-          </div>
-        </div>
+</div>   
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="margin: auto; display: block;">Registrate para recibir todas nuestras novedades.</button>   
     </div>
+  </div>
+</div>
+
+
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-body">
+        <form action="">
+          <div class="form-row">
+            <div class="form-group col-sm-6">
+              <label for="name">Nombre</label>
+              <input type="text" class="form-control" id="name" placeholder="ingrese su nombre">
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="lastname">Apellido</label>
+              <input type="text" class="form-control" id="name" placeholder="Ingrese su apellido">
+            </div>
+        </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Ingrese su email" >
+          </div>
+          <input type="subit" value="Enviar" class="btn btn-success">
+        </form>
+      </div>
+      </div>
+    </div>
+
+  </div>
 
 
 <footer class="page-footer font-small blue pt-4">
@@ -186,8 +226,16 @@
 
   </div>  
 
+
+ 
+
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper-utils.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+      $(function(){
+        $("[data-toggle='tooltip']").tooltip();
+      });
+    </script>
   </body>
 </html>

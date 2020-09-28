@@ -27,3 +27,14 @@ footer a:hover{
     width:  200px;
     margin: 5px;
 }
+
+.button-prices{
+    color: black;
+    display: block;
+    width: 100%;
+}
+
+.button-prices:hover{
+    text-decoration: none;
+    color: green;
+}
